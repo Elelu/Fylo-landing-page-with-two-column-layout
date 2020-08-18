@@ -44,7 +44,7 @@ li {
 }
 
 a {
-  font-family: '[Raleway]';
+  font-family: 'Raleway';
   text-decoration: none;
   color: hsl(243, 87%, 12%);
 }
@@ -76,7 +76,7 @@ a {
   height: 30px;
   width: 150px;
   border-style: outset;
-  border-radius: 5px;
+  border-radius: 7px;
   border-width: 1;
 }
 
@@ -116,13 +116,18 @@ a {
   padding: 20px 5%;
   display: grid;
   grid-template-columns: 50% 50%;
-  font-family: '[Raleway]';
+  font-family: 'Raleway';
   background-color: hsl(240, 75%, 98%);
-  background-image: url(images/bg-curve-desktop.svg);
-  background-size: auto;
-  background-repeat: no-repeat;
 }
 
+.desktop-curve{
+width: 100%;
+margin-bottom: 0;
+display: block;
+}
+.mobile-curve{
+display: none;
+}
 .testimony-content {
   grid-row: 1;
   width: 80%;
@@ -183,6 +188,14 @@ a {
     width: 100%;
   }
 
+  .mobile-curve{
+  width: 100%;
+  margin-bottom: 0;
+  display: block;
+  }
+  .desktop-curve{
+  display: none;
+  }
   .illustration-2 {
     width: 100%;
   }
