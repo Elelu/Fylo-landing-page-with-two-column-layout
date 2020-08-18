@@ -28,6 +28,8 @@ p {
   display: grid;
   grid-template-columns: 30% 70%;
   font-family: 'Raleway', sans-serif;
+  position: fixed;
+  width: 90%;
 }
 
 ul {
@@ -293,5 +295,5 @@ a {
 footer {
   color: #fff;
   background-color: hsl(243, 87%, 12%);
-  padding: 40px 5%;
+  padding: 10px 5%;
 }
